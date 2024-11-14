@@ -25,9 +25,9 @@ Step 1: Fork this repo or download this repo
 
 Step 2: Edit index.html file (Comments included)
 
-Step 3: Create your own repo for research and upload files
+Step 3: Create your own repo for your research in your GitHub account and upload files
 
-Step 4: Creare a page for that (Repo Setting --> Pages --> Select Brach and Save)
+Step 4: Creare a page for that (Repo Setting --> Pages --> Select Brach and Save then GitHub Action will run and give Page URL for your page)
 
 ## index.html File Edit Help
 
