@@ -9,12 +9,14 @@ You can free to borrow from this template for your own personal use. Please do n
 * SEO tags
 * All paper sections (Abstract,Introduction,Methodology, Results, Conclusion,BibTeX,Acknowledgement)
 * Authers details
+* BibTex Copy to Clipboard button - Reader can easily copy it
 * Pre-built codes
   * Image Gallery - Auto Slideshow
   * Video Gallery - Auto Slideshow
   * Demo Video
   * Demo Videos List
 * Dark Mode
+* Menu Bar
 * Scroll Up Button
 
 ## Simple Steps
