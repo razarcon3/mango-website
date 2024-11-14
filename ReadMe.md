@@ -39,7 +39,7 @@ This has main step and step 1 to 10. index.html file also has comments for each 
 
 Main Step: Edit Page Title (Edit SEO tags if you can, it will help for Google Search)
 
-Step 1: Header Part
+Step 1: Header Part (Authers and Other Details)
 
 Step 2: Button for links
 
