@@ -1,8 +1,5 @@
 # iNdra Page Template: This is a Website / GitHub Page Template for Research Papers / Academic Papers
 
-[![Visits Badge](https://badges.pufler.dev/visits/indramal/badge-it)](https://github.com/indramal/iNdra-GitHub-Page-Template-For-Resarch/)
-
-
 > Demo Page - https://indramal.github.io/iNdra-GitHub-Page-Template-For-Resarch/
 
 You can free to borrow from this template for your own personal use. Please do not remove below code of the template mentioned to about this template.
