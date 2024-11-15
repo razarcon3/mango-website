@@ -1,6 +1,7 @@
 # iNdra Page Template: This is a Website / GitHub Page Template for Research Papers / Academic Papers
 
-[![Visits Badge](https://badges.pufler.dev/visits/indramal/iNdra-GitHub-Page-Template-For-Resarch)](https://github.com/indramal/iNdra-GitHub-Page-Template-For-Resarch/)
+[![Visits Badge](https://badges.pufler.dev/visits/indramal/badge-it)](https://github.com/indramal/iNdra-GitHub-Page-Template-For-Resarch/)
+
 
 > Demo Page - https://indramal.github.io/iNdra-GitHub-Page-Template-For-Resarch/
 
@@ -66,3 +67,5 @@ Step 10: Edit page footer
 Please send me feedback on [GitHub](https://github.com/indramal/iNdra-GitHub-Page-Template-For-Resarch/issues)
 
 > Made with ❤️ by [Indramal](https://github.com/indramal)
+
+![Visitor Count](https://profile-counter.glitch.me/indramalgithubpagetemplate/count.svg)
