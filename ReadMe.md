@@ -1,4 +1,4 @@
-# iNdra Page Template: This is a Website / GitHub Page Template for Research Papers / Academic Papers
+# iNdra Page Template: This is a Website / GitHub Page Template for Research Papers / Academic Papers [Free] [v1]
 
 > Demo Page - https://indramal.github.io/iNdra-GitHub-Page-Template-For-Resarch/
 
