@@ -9,7 +9,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  max-width: 800px;
+  max-width: 1024px;
   margin: 0 auto;
   color: var(--text-color-light);
   background-color: var(--bg-color-light);
