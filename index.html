@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Main Step: Edit below title -->
-    <title>TODO: Paper Title</title>
+    <title>MANGO</title>
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="" />
@@ -103,32 +103,28 @@
     -->
 
     <div class="header">
-      <h1>TODO: Paper Title</h1>
+      <h1>Sim2real Image Translation Enables Viewpoint-Robust Policies from Fixed-Camera Datasets</h1>
       <div class="authors">
         <p>
-          <a href="#">TODO: Author name 1</a><sup>1</sup>,
-          <a href="#">TODO: Author name 2</a><sup>*1,3</sup>,
-          <a href="#">TODO: Author name 3</a><sup>*2</sup>,
-          <a href="#">TODO: Author name 4</a><sup>*1</sup>,
-          <a href="#">TODO: Author name 5</a><sup>2</sup>,
-          <a href="#">TODO: Author name 6</a><sup>1</sup>
+          <a href="mailto:jcoholich@gatech.edu">Jeremiah Coholich</a><sup>1</sup>,
+          <a href="mailto:jcoholich@gatech.edu">Justin Wit</a><sup>1</sup>,
+          <a href="mailto:jcoholich@gatech.edu">Robert Azarcon</a><sup>1</sup>,
+          <a href="mailto:jcoholich@gatech.edu">Zsolt Kira</a><sup>1</sup>,
         </p>
         <p>
-          <sup>1</sup>TODO: University name 1 &nbsp;&nbsp; <sup>2</sup>TODO:
-          University name 2&nbsp;&nbsp; <sup>3</sup>TODO: University name 3
+          <sup>1</sup>Institute of Robotics and Intelligent Machine, Georgia Institute of Technology, Atlanta, GA, USA.
         </p>
-        <p>
+        <!-- <p>
           <sup>1</sup
-          ><a href="mailto:example1@email.com">TODO:email1@email.com</a>,
-          <sup>2</sup
-          ><a href="mailto:example2@email.com">TODO:email2@email.com</a>
-        </p>
-        <p>
-          <em>*Equal Contribution</em
-          ><!-- Remove if not applicable -->
-        </p>
-        <p>📌 Conference on TODO: Conference name, 2023 (Oral Talk)</p>
-        <p>📌 Presented at TODO: Conference name 2024, Yokohama, Japan.</p>
+          >{<a href="mailto:jcoholich@gatech.edu">jcoholich</a>, 
+          <a href="mailto:jcoholich@gatech.edu">jwit3</a>, 
+          <a href="mailto:jcoholich@gatech.edu">razarcon3</a>, 
+          <a href="mailto:jcoholich@gatech.edu">zkira</a>}@gatech.edu
+        </p> -->
+        <img src="Assets/gtlogo.jpg" alt="GT Logo" style="max-width: 30%; height: auto; display: block; margin: 0 auto;"/> 
+        <img src="Assets/ripl_logo.png" alt="RIPL Logo" style="max-width: 30%; height: auto; display: block; margin: 0 auto;"/>
+        <p>📌 International Conference on Robotics & Automation (ICRA) 2025</p>
+        <!-- <p>📌 Presented at TODO: Conference name 2024, Yokohama, Japan.</p> -->
       </div>
     </div>
 
@@ -167,7 +163,7 @@
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/ysFav0b472w?si=Rxxp3R6_tkBXAEmP"
+          src="https://www.youtube.com/watch?v=9iI0VzXBZn0"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -183,7 +179,26 @@
 
     <div class="abstract" id="abstract">
       <h2>Abstract</h2>
-      <p>TODO: Add Abstract</p>
+      <p>Vision-based policies for robot manipulation have
+achieved significant recent success, but are still brittle to
+distribution shifts such as camera viewpoint variations. Robot
+demonstration data is scarce and often lacks appropriate vari-
+ation in camera viewpoints. Simulation offers a way to collect
+robot demonstrations at scale with comprehensive coverage of
+different viewpoints, but presents a visual sim2real challenge.
+To bridge this gap, we propose MANGO – an unpaired image
+translation method with a novel segmentation-conditioned
+InfoNCE loss, a highly-regularized discriminator design, and a
+modified PatchNCE loss. We find that these elements are crucial
+for maintaining viewpoint consistency during sim2real transla-
+tion. When training MANGO, we only require a small amount
+of fixed-camera data from the real world, but show that our
+method can generate diverse unseen viewpoints by translating
+simulated observations. In this domain, MANGO outperforms
+all other image translation methods we tested. Imitation-
+learning policies trained on data augmented by MANGO are
+able to achieve success rates as high as 60% on views that the
+non-augmented policy fails completely on.</p>
     </div>
 
     <!-- Step 3 End: Add your paper abstract -->
@@ -195,10 +210,7 @@
     Remove this step if not applicable
     -->
 
-    <div class="content-section" id="introduction">
-      <h2>Introduction</h2>
-      <p>TODO: Add Introduction</p>
-    </div>
+    <img src="Assets/fig1.jpg" alt="Slide 1" style="max-width: 70%; height: auto; display: block; margin: 0 auto;"/>
 
     <!-- Step 4 End: Add your paper introduction -->
 
@@ -210,11 +222,9 @@
     -->
 
     <div class="content-section" id="methodology">
-      <h2>Methodology</h2>
-      <p>TODO: Add Methodology</p>
+      <h2>Image Translation Architecture</h2>
       <ul>
-        <li>TODO</li>
-        <li>TODO</li>
+        <img src="Assets/fig2.jpg" alt="Slide 1" style="max-width: 90%; height: auto; display: block; margin: 0 auto;"/>
       </ul>
     </div>
 
@@ -239,12 +249,8 @@
     -->
 
     <div class="content-section" id="results">
-      <h2>Results</h2>
-      <p>TODO: Add Results</p>
-      <ul>
-        <li>TODO</li>
-        <li>TODO</li>
-      </ul>
+      <h2>Translation Examples</h2>
+        <img src="Assets/fig3.jpg" alt="Slide 1" style="max-width: 90%; height: auto; display: block; margin: 0 auto;"/>
     </div>
 
     <!-- 3 Images Carousel -->
@@ -279,122 +285,6 @@
       <button class="carousel-button prev">←</button>
       <button class="carousel-button next">→</button>
       <div class="carousel-indicators"></div>
-    </div>
-
-    <!-- 3 Videos Carousel -->
-    <h3>Video Gallery</h3>
-    <div class="carousel-container" id="videoCarousel">
-      <div class="carousel-track">
-        <div class="carousel-slide">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/Bhg3uOx9ZPw?si=4Ie__ntcTSvRRi4y"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="carousel-slide">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/xjRALKy6Ajw?si=EMrMe_v9fXOjhi_J"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="carousel-slide">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/aaTUS5Aa8F0?si=NUvuwq8-SzC5RuqQ"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="carousel-slide">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/JficcrhnO78?si=8SryP_KFQ0orNyMt"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="carousel-slide">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/kEdr0ARq48A?si=ADLxnzCBkTDQm28o"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="carousel-slide">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/v_ulHMfDUco?si=0fJGN4AmWj_zP-Ik"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-      <button class="carousel-button prev">←</button>
-      <button class="carousel-button next">→</button>
-      <div class="carousel-indicators"></div>
-    </div>
-
-    <!-- Single YouTube Video -->
-    <div class="video-section">
-      <h3>Demo Video</h3>
-      <div class="video-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/ysFav0b472w?si=Rxxp3R6_tkBXAEmP"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-
-    <!-- YouTube Video List -->
-    <div class="video-section">
-      <h3>Demo Videos List</h3>
-      <div class="video-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/videoseries?si=Alenj7M9_gg7Xv49&amp;list=PL95lT3XlM14SgZHmmKn1mGSAAQc8ycq8v"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
     </div>
 
     <!-- Step 6 End: Add your paper results -->
